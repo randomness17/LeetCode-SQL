@@ -1,0 +1,6 @@
+# 584. Find Customer Referee
+# Easy
+
+SELECT name 
+FROM Customer
+WHERE referee_id is NULL OR referee_id <> 2
